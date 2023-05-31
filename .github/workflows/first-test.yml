@@ -1,5 +1,5 @@
 name: First WF
-on: push
+on: workflow_dispatch
 jobs:
     test1:
         name: Runs on Ubuntu
