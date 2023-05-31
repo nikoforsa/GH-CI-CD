@@ -1,0 +1,9 @@
+name: First WF
+on: push
+jobs:
+    test1:
+        name: Runs on Ubuntu
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print
+              run: echo Hello
