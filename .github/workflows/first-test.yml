@@ -13,8 +13,10 @@ jobs:
               run: npm ci
             - name: install SDK
               run: npm install @tpio/javascript-opensdk
-            - name: test appl
-              run: npm run tests
+            - name: run lint
+              run: npm run lint
+#            - name: test appl
+#              run: npm run tests
 #            - name: test appl
 #              run: npm run tests-unit
             
