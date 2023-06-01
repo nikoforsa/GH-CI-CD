@@ -1,5 +1,5 @@
 name: First WF
-on: workflow_dispatch
+on: [workflow_dispatch,push]
 jobs:
     test1:
         name: Runs on Ubuntu
@@ -7,3 +7,11 @@ jobs:
         steps:
             - name: Print
               run: echo Hello
+            - name: Get Repository Code
+              uses: actions/checkout@v3
+            - name: install dpnds
+              run: npm ci
+            - name: test appl
+              run: npm run test
+            
+            
