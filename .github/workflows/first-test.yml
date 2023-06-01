@@ -11,6 +11,8 @@ jobs:
               uses: actions/checkout@v3
             - name: install dpnds
               run: npm ci
+            - name: install SDK
+              run: npm install @tpio/javascript-opensdk
             - name: test appl
               run: npm run test
             
