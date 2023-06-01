@@ -14,6 +14,7 @@ jobs:
             - name: install SDK
               run: npm install @tpio/javascript-opensdk
             - name: test appl
-              run: npm run test
-            
+              run: npm run tests
+#            - name: test appl
+#              run: npm run tests-unit
             
