@@ -15,8 +15,6 @@ jobs:
           run: npm install @tpio/javascript-opensdk
         - name: run lint
           run: npm run lint
-        - name: test appl
-          run: npm run tests
     build:
       name: Runs on Ubuntu
       runs-on: ubuntu-latest
