@@ -22,11 +22,11 @@
     "url": "https://github.com/testproject-io/javascript-opensdk/issues",
     "email": "support@testproject.io"
   },
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
-    "/dist/src/**/*.js",
-    "/dist/src/**/*.d.ts"
+    "/src/**/*.js",
+    "/src/**/*.d.ts"
   ],
   "scripts": {
     "format": "./node_modules/.bin/prettier --check .",
